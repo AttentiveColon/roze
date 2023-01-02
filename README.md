@@ -27,7 +27,7 @@
  #### Getting started:
  Displays a 600x600 window with red background.
 
- ```
+ ```rs
  pub struct Game {}
 
  impl EventFunctions for Game {
@@ -49,7 +49,7 @@
  Displays a window with a spinning textured sprite. An audio clip plays when the left mouse
  button is clicked.
 
- ```
+ ```rs
  pub struct Game {
      rotation: f32,
  }
@@ -97,7 +97,7 @@
  Define an untextured colored particle effect that moves out from the center of the screen. Also
  define a font and display the current fps in the top right of the screen.
 
- ```
+ ```rs
  pub struct Game {
      particle_prop: ParticleProperties,
  }
