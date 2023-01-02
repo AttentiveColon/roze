@@ -2,6 +2,12 @@
 name = "roze"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Zero dependancy Windows game engine"
+repository = "https://github.com/AttentiveColon/roze"
+readme = "README.md"
+keywords = ["gamedev", "graphics", "opengl", "game-engine", "sprites"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
